@@ -1,9 +1,9 @@
 # from django.test import TestCase
-# from tasks.models import Username, Task, TaskForm, UsernameForm
+# from budget.models import Project, Category, Expense
 
 # class TestModels(TestCase):
 	
-	# def setUp(self):
+# 	def setUp(self):
 # 		self.project1 = Project.objects.create(
 # 			name='project 1',
 # 			budget=10000
