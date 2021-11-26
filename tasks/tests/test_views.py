@@ -2,7 +2,6 @@ from django.conf.urls import url
 from django.http import response
 from django.test import Client, TestCase, client
 from django.urls import resolve, reverse
-# from tasks.models import Username
 from  tasks.models import Username
 
 class TestViews(TestCase):
