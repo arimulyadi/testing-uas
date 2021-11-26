@@ -12,7 +12,6 @@ celerybeat-schedule.db
 /postgres-data/
 /redis-data/
 /smedia/
-/static/
 /version.txt
 /dump.rdb
 /venv/
