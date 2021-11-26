@@ -15,7 +15,8 @@ class TestModels(TestCase):
 						)
 
 	def test_username(self):
-		self.assertEquals(self.user.username, "arimulyadi")
+		temp_user = Username.objects.get(id=self.user.id)
+		self.assertEquals(self.user.username, temp_user.username)
 
 	def test_task(self):
 		temp_task = Task.objects.get(id=self.task.id)
